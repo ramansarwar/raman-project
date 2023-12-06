@@ -1,0 +1,199 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background-color: rgb(221, 231, 226);
+    text-align: center;
+    padding: 3.5rem  10rem;
+   
+  }
+
+
+  nav{
+    background-color:rgb(51,51,51);
+    color: white;
+    height: 4rem;
+    width: auto;
+    border-radius: 2rem;
+    margin: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+  }
+ 
+  ul{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+  }
+
+.nav-item{
+    color: white;
+    text-decoration: none;
+}
+
+  .offers{
+    height: 22rem;
+    width: auto;
+    
+    
+    border-radius: 2rem;
+    overflow: hidden;
+    position: relative;
+  }
+
+ 
+#pasta-img{
+    filter: blur(4px);
+   
+}
+
+.offers-text{
+    position: absolute;
+    color: white;
+    text-align: start;
+    margin: 2rem;
+    top:1rem;
+   
+}
+
+.offers-heading{
+    font-size: 5rem;
+}
+
+.offers-paragraph{
+    margin-top: 1rem;
+    margin-right:10rem;
+}
+
+.servises{
+display: flex;
+margin: 2rem 0 3rem 0;
+text-align: start;
+
+}
+
+
+
+.servise{
+    width: 35rem;
+    height: 46rem;
+    background-color:rgb(244,229,214);
+    margin-left: 1rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    cursor: pointer;
+}
+
+.servise-topic{
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.servise-img{
+    width: 28rem;
+    height: 15rem;
+    margin-bottom: 2rem;
+    transition: transform .2s;
+}
+
+
+.servise-paragraph{
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+
+/* ---------------menu-section------------ */
+#menu{
+    overflow: hidden;
+}
+.hr-section{
+    margin: 10rem 10rem 4rem 10rem;
+    
+}
+
+.section-title{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+
+/* ---------------book------------- */
+#Book{
+  margin-bottom: 10rem;
+  text-align: start;
+}
+
+input, textarea{
+    width: 100%;
+    display: block;
+text-align: center; 
+   height: 3rem;
+}
+label{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+button{
+    width: 70%;
+    height: 3.5rem;
+    margin: 5rem 10rem 0 15rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: rgb(73,94,87);
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+iframe{
+    border-radius: 2rem;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: inline;
+    width: 140px;
+    height: 160px;
+    text-align: start;
+}
+.copyright{
+  
+    width: 50%;
+    text-align: end;
+    font-weight: bold;
+}
+
+.hr-copyright{
+    border: 2px solid black;
+    border-radius: 2rem;
+}
